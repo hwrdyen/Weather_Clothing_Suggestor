@@ -1,0 +1,21 @@
+@media screen and (min-device-width: 0px){
+    .weather-form {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 5%;
+        padding: 10px;
+    }
+
+    .form__input {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-device-width: 768px){
+
+}
+
+@media screen and (min-device-width: 1280px){
+    
+}
