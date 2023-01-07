@@ -1,21 +1,21 @@
-@media screen and (min-device-width: 0px){
-    .App {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+@media screen and (min-device-width: 0px) {
+	// .App {
+	// 	padding-left: 1rem;
+	// 	padding-right: 1rem;
+	// }
 
-    .Main__title {
-        font-size: 15px;
-        font-weight: bold;
-        text-align: center;
-    }
-
+	.Main__title {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		background-color: rgb(234, 243, 249);
+		padding: 10px;
+		margin: 0px;
+	}
 }
 
-@media screen and (min-device-width: 768px){
-
+@media screen and (min-device-width: 768px) {
 }
 
-@media screen and (min-device-width: 1280px){
-    
+@media screen and (min-device-width: 1280px) {
 }
