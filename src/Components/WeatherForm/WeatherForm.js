@@ -4,6 +4,22 @@ import { useEffect, useState } from "react";
 
 function WeatherForm() {
   let APIKEY = "0eb8e1a2480f4da3aa533249230601";
+  const { location, setLocation } = useState("London");
+  const { gender, setGender } = useState("Male");
+  const { apiData, setApiData } = useState();
+
+  //1. Get info from api based on location
+
+  //2. Change the image of the weather condition and the putfit based on data from api
+  function changeBackground(x) {}
+
+  function changeOutfit(x) {}
+
+  //3. If the location and gender change based on the user's input =, then the useEffect will change the background and outfit
+  useEffect(() => {
+    changeBackground(x);
+    changeOutfit(x);
+  }, [location, gender]);
 
   return (
     <>
